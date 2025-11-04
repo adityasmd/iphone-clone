@@ -213,7 +213,7 @@ width: 100%;
     width: 50%;
     font-family: iphone;
     text-align: center;
-   background-color: #101014;
+   background-color: #D5480E ;
    position: relative;
    left: 50%;
    bottom: 71.5%;
@@ -240,12 +240,12 @@ width: 100%;
   max-height: 100%;     
   object-fit: cover;
   border: solid 2px white;
-  box-shadow: 5px 5px 20px rgba(180, 81, 81, 0.3);
+  box-shadow: 5px 5px 20px white;
   border-radius: 20px;
 }
 #wvideo h2{
    position: absolute;
-   top: 12px;
+   top: 12px;    
     color: white;
     text-align: center;
     
@@ -255,5 +255,6 @@ width: 100%;
    top: 50px;
     padding-bottom: 35%;
     font-weight: 500;
-    color: white;
+    font-family: iphone2;
+    color: rgb(18, 15, 12);
 }
