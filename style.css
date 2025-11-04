@@ -1,0 +1,58 @@
+@font-face {
+    font-family: iphone;
+    src: url(z.woff2);
+}
+@font-face {
+    font-family: iphone2;
+    src: url(sf-pro-display_medium.woff2);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+height: 100%;
+width: 100%;
+}
+#main{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(26, 26, 26);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: iphone2;
+   
+}
+#nav{
+   font-weight: 900; 
+   font-size: 20px;
+   display: flex; 
+   gap: 75px;
+   color: white;
+}
+#nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+}
+#nav :hover{
+    color: orange;
+    transition: scale(1);
+}
+#line{
+    height: 35px;
+    width: 100%;
+    background-color: rgb(42, 41, 41);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: iphone2;
+}
+#page1 video{
+     height: 100%;
+     width: 100%;
+     object-fit: cover;
+}
