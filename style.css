@@ -23,7 +23,6 @@ width: 100%;
    align-items: center;
    justify-content: center;
    font-family: iphone2;
-   
 }
 #nav{
    font-weight: 900; 
@@ -64,14 +63,15 @@ width: 100%;
     background-size: cover; 
     background-position: center;
    background-image: url(hero_iphone_air__0gxyavihpiqu_medium.jpg);
+ 
 }
 #page2 #air{
     text-align: center;
     font-family: iphone2;
-    margin-top: 20px;
 }
 #air h1{
     font-size: 60px;
+    padding-top: 20px;
 }
 #air p{
      margin-top: 20px;
@@ -107,6 +107,59 @@ width: 100%;
     transition: all 0.3s ease;
 }
  #air #btn2:hover {
+   background-color:  rgb(0, 115, 255);
+  color: white;
+  transform: scale(1.05);
+}
+#page3{
+    height: 100%;
+    width: 100%;
+    font-family: iphone;
+    text-align: center;
+    background-size: cover; 
+    background-position: center;
+    background-image: url(hero_macbook_pro_m5__fjgmapbkxo2u_medium.jpg);
+}
+#macbook h2{
+    padding-top: 40px;
+    font-size: 60px;
+    color: white;
+}
+#macbook p{
+   padding-top: 15px;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+}
+#macbook #btn3{
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(0, 115, 255);
+}
+#macbook button:not(#btn4):hover {
+  background-color: white;
+  color: rgb(0, 115, 255);
+  transform: scale(1.05);
+}
+#macbook #btn4{
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 30px;
+    padding: 10px;
+     font-size: 20px;
+    font-family: iphone2;
+    padding: 10px 16px;
+    background-color: white;
+    color:  rgb(0, 115, 255);
+    border: solid 1px  rgb(0, 115, 255);
+    margin-left: 5px;
+    transition: all 0.3s ease;
+}
+ #macbook #btn4:hover {
    background-color:  rgb(0, 115, 255);
   color: white;
   transform: scale(1.05);
