@@ -173,8 +173,11 @@ width: 100%;
     text-align: center;
     background-size: cover; 
     background-position: center;
-    background-image: url(promo_apple_watch_series_11__b63hxviqvonm_medium.jpg);
+     background-image: url("promo_apple_watch_series_11__b63hxviqvonm_medium.jpg");
 }
+
+
+
 #page4 #btn5{
     cursor: pointer;
     border: none;
@@ -213,10 +216,10 @@ width: 100%;
     width: 50%;
     font-family: iphone;
     text-align: center;
-   background-color: #D5480E ;
-   position: relative;
-   left: 50%;
-   bottom: 71.5%;
+   background-color: #F5F5F7 ;
+   position: absolute;
+   left: 49%;
+   top: 339%;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -229,9 +232,6 @@ width: 100%;
   margin-top: 15%;
   width: 60%;
   height: 60%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 #wvideo #video video {
@@ -246,7 +246,7 @@ width: 100%;
 #wvideo h2{
    position: absolute;
    top: 12px;    
-    color: white;
+    color: rgb(18, 7, 7);
     text-align: center;
     
 }
@@ -256,5 +256,44 @@ width: 100%;
     padding-bottom: 35%;
     font-weight: 500;
     font-family: iphone2;
-    color: rgb(18, 15, 12);
+    color: rgb(0, 0, 0);
+}
+
+#page5{
+    height: 400px;
+    width: 100%;
+    
+    display: flex;
+    gap: 20px;
+    flex-wrap: nowrap;
+    overflow: auto;
+}
+ #product1{
+    height: 80%;
+    width: 20%;
+   background-color: #f3f3d6;
+    flex-shrink: 0;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+#product1 img{
+    object-fit: cover;
+    width: 50%;
+    height: 30%;
+}
+#product1 h1{
+    font-family: iphone2;
+}
+#product1 button{
+    padding: 10px 30px;
+    font-family: iphone2;
+}
+#product1 button:hover {
+   background-color: transparent;
+   border: solid 1px  rgb(0, 115, 255);
+   color:  rgb(0, 115, 255);
 }
